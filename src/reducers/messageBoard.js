@@ -33,6 +33,12 @@ export const initialState = {
 export const messageBoardReducer = (state = initialState, action) =>
   produce(state, (draft) => {
     switch (action.type) {
+      case ADD_POST_COMMENT:
+        const { id, comment } = action.payload;
+        const post = draft.postsById[id];
+        post.comments.push(comment);
+        break;
+
       case ADD_POST:
         const postId = action.payload.id;
         draft.postsById[postId] = {

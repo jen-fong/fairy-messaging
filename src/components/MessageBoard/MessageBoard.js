@@ -10,8 +10,7 @@ export function MessageBoard() {
   const posts = useSelector(getPosts);
 
   const handlePostClick = (postId) => {
-    console.log("move to next page");
-    // history.push(`/posts/${postId}`);
+    history.push(`/posts/${postId}`);
   };
 
   return (

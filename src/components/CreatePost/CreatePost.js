@@ -1,45 +1,26 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
-import { v4 as uuidv4 } from "uuid";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { useForm } from "../../hooks";
 import { addPost } from "../../actions/post";
 
 export function CreatePost() {
   const dispatch = useDispatch();
   const history = useHistory();
-  const initialValues = {
-    title: "",
-    message: "",
-    author: "",
-  };
 
-  const [values, setValues] = React.useState(initialValues);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setValues({
-      ...values,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    const currentTimeAndDate = new Date();
-
-    e.preventDefault();
-    dispatch(
-      addPost({
-        ...values,
-        id: uuidv4(),
-        createdAt: currentTimeAndDate,
-      })
-    );
-    history.push("/");
-    // reset form state after submitting
-    setValues();
-  };
+  const { values, handleSubmit, handleChange } = useForm({
+    initialValues: {
+      title: "",
+      message: "",
+      author: "",
+    },
+    onSubmit: (data) => {
+      dispatch(addPost(data));
+      history.push("/");
+    },
+  });
 
   return (
     <section>
