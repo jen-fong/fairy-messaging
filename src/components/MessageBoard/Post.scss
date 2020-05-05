@@ -1,0 +1,12 @@
+.message-board-post {
+  cursor: pointer;
+}
+.message-board-post-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 95%;
+}
+.message-board-post-content {
+  width: 95%;
+}

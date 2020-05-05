@@ -1,0 +1,14 @@
+.message-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 75vh;
+}
+.message-board-posts {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.message-board-posts-none {
+  margin: auto;
+}
