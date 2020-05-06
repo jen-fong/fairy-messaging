@@ -4,6 +4,7 @@ import { Router, Route } from "react-router-dom";
 import { createMemoryHistory } from "history";
 import { Provider } from "react-redux";
 import * as postActions from "../../../actions/post";
+import { formatDate } from "../../../utils";
 import { ViewPost } from "../ViewPost";
 
 describe("ViewPost", () => {
@@ -60,7 +61,14 @@ describe("ViewPost", () => {
     const { getByText } = renderWithStoreAndRouter();
 
     expect(getByText(testPostData.title)).toBeInTheDocument();
-    expect(getByText(`By: ${testPostData.author}`)).toBeInTheDocument();
+    expect(
+      getByText(
+        `By: ${testPostData.author} on ${formatDate(
+          testPostData.createdAt,
+          " "
+        )}`
+      )
+    ).toBeInTheDocument();
   });
 
   it("displays a message when no comments", () => {

@@ -11,7 +11,7 @@ const store = createStore();
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/fairy-messaging">
       <App />
     </BrowserRouter>
   </Provider>,
