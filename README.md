@@ -8,7 +8,11 @@ In the project directory, you can run:
 
 `npm start`
 
-Then go to localhost:3000 to see the app
+The app should open up in the browser but if it doesn't, please go to [localhost:3000/fairy-messaging](http://localhost:3000/fairy-messaging)
+
+A live site is here on github:
+
+[https://jen-fong.github.io/fairy-messaging/](https://jen-fong.github.io/fairy-messaging/)
 
 ## Technologies
 
