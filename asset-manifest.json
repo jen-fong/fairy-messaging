@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fairy-messaging/static/css/main.7d42bbe4.chunk.css",
-    "main.js": "/fairy-messaging/static/js/main.2b122260.chunk.js",
-    "main.js.map": "/fairy-messaging/static/js/main.2b122260.chunk.js.map",
+    "main.js": "/fairy-messaging/static/js/main.08fae68a.chunk.js",
+    "main.js.map": "/fairy-messaging/static/js/main.08fae68a.chunk.js.map",
     "runtime-main.js": "/fairy-messaging/static/js/runtime-main.1c04183f.js",
     "runtime-main.js.map": "/fairy-messaging/static/js/runtime-main.1c04183f.js.map",
     "static/js/2.446d98be.chunk.js": "/fairy-messaging/static/js/2.446d98be.chunk.js",
     "static/js/2.446d98be.chunk.js.map": "/fairy-messaging/static/js/2.446d98be.chunk.js.map",
     "index.html": "/fairy-messaging/index.html",
-    "precache-manifest.9e051599efd7e7b55f275f8083c2a449.js": "/fairy-messaging/precache-manifest.9e051599efd7e7b55f275f8083c2a449.js",
+    "precache-manifest.ba339c79c99822d7c7542c9e58c4db4e.js": "/fairy-messaging/precache-manifest.ba339c79c99822d7c7542c9e58c4db4e.js",
     "service-worker.js": "/fairy-messaging/service-worker.js",
     "static/css/main.7d42bbe4.chunk.css.map": "/fairy-messaging/static/css/main.7d42bbe4.chunk.css.map",
     "static/js/2.446d98be.chunk.js.LICENSE.txt": "/fairy-messaging/static/js/2.446d98be.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1c04183f.js",
     "static/js/2.446d98be.chunk.js",
     "static/css/main.7d42bbe4.chunk.css",
-    "static/js/main.2b122260.chunk.js"
+    "static/js/main.08fae68a.chunk.js"
   ]
 }

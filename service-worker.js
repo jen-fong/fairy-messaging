@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fairy-messaging/precache-manifest.9e051599efd7e7b55f275f8083c2a449.js"
+  "/fairy-messaging/precache-manifest.ba339c79c99822d7c7542c9e58c4db4e.js"
 );
 
 self.addEventListener('message', (event) => {
