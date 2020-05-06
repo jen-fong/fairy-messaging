@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "685a490065203f768f2e703eb3a5dcb9",
+    "revision": "f072acc2556fa381bc53a7b3fc195f3b",
     "url": "/fairy-messaging/index.html"
   },
   {
-    "revision": "a1398c5a896008eb1a54",
+    "revision": "51ff19c60dd61c744ae2",
     "url": "/fairy-messaging/static/css/main.7d42bbe4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairy-messaging/static/js/2.446d98be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1398c5a896008eb1a54",
-    "url": "/fairy-messaging/static/js/main.08fae68a.chunk.js"
+    "revision": "51ff19c60dd61c744ae2",
+    "url": "/fairy-messaging/static/js/main.60cdfe58.chunk.js"
   },
   {
     "revision": "eb6baa8a27b589ec3b1b",
