@@ -28,7 +28,7 @@ export function ViewPost() {
 
   return (
     <section className="view-post-container">
-      <header className="d-flex ">
+      <header className="d-flex">
         <div className="mr-auto">
           <h2 className="m-0">{post.title}</h2>
           <div>
